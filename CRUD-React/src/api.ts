@@ -1,10 +1,5 @@
 import axios from "axios"
-
-interface User {
-    id: number,
-    nome: string,
-    idade: number,
-}
+import { User } from "./types"
 
 const api = axios.create({
     baseURL: "http://localhost:3333"
