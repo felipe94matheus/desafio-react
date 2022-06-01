@@ -1,6 +1,7 @@
 import React from 'react';
 import { Modal, Form, Button } from 'react-bootstrap';
 import { useFormik } from 'formik';
+import { User } from '../../types';
 
 interface ModalCreateUserProps {
     show: boolean;
